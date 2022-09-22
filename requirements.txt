@@ -1,0 +1,7 @@
+tensorflow==2.4.1
+opencv-python==4.5.5.64
+matplotlib==3.5.2
+keras==2.4.0
+numpy==1.22.4
+jupyter notebook==6.4.12
+PyQt5==5.15.7
