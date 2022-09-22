@@ -38,6 +38,7 @@
 2. .py脚本分段运行
 
 Jupyter Notebook
+
 `#%%`
 
 #### Q4. Qt5 mac搭建
@@ -48,20 +49,17 @@ windows下的动态链接库。
 2. pyd
 pyd一般是python外的其他语言如C/C++编写的python扩展模块，即python的一个动态链接库，与dll文件相当。在linux系统中一般为.so文件。
 1. so
-so文件是Linux下的程序函数库, 即编译好的可以供其他程序使用的代码和数据。即Linux下的动态链接库。
-关于动态链接库, 我们需要注意的是动态链接库是不能单独运行的, 他需要与.c .h文件放在一起才可以运行。
+so文件是Linux下的程序函数库, 即编译好的可以供其他程序使用的代码和数据。即Linux下的动态链接库。关于动态链接库, 我们需要注意的是动态链接库是不能单独运行的, 他需要与.c .h文件放在一起才可以运行。
 
 
 #### Q6. C++和python搜索头文件方式
 
 1. C++查找头文件方式
 C++搜索文件分为两种，分别是在`<iostream>`和`"stdio.h"`中寻找。
-其中第一种的搜索顺序是：在环境变量中搜索。
-第二种的搜索顺序是是：先搜索当前路径；当前路径中未找到，再在环境变量中搜索。
+其中第一种的搜索顺序是：在环境变量中搜索。第二种的搜索顺序是是：先搜索当前路径；当前路径中未找到，再在环境变量中搜索。
 2. python查找模块方式
 python查找模块的顺序为: **当前包 -> 内置函数 -> sys.path(环境变量)**
-其中内置函数指的是如os等系统自带的包, 存在于python36/python.zip, python36/lib, python/lib/site-packages三个包中
-sys.path在import sys包中, 内置函数的3个包往往都可以在sys.path中查看到。查看方法如下：
+其中内置函数指的是如os等系统自带的包, 存在于python36/python.zip, python36/lib, python/lib/site-packages三个包中。sys.path在import sys包中, 内置函数的3个包往往都可以在sys.path中查看到。查看方法如下：
 ```python
 import sys
 print(sys.path) # 查看系统路径, 是list数据形式
