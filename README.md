@@ -13,10 +13,13 @@
 - 了解python-matplotlib
 - 了解ctypes, pybind11 python将c++和python联通
 
-### 2. TO DO
+### 2. TO DO List
 
-- 搭建环境
-- PyQt学习, Qt复现
+- 搭建环境 √
+- pybind11，用python调用c++ √
+参考本人博客:`https://blog.csdn.net/qq_43369406/article/details/127002024`
+- PyQt学习, Qt复现 √
+参考本人博客:`https://blog.csdn.net/qq_43369406/article/details/127014248`
 - VSCode使用
 - python调用C++
 - 图像分割了解

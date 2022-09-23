@@ -5,3 +5,4 @@ keras==2.4.0
 numpy==1.22.4
 jupyter notebook==6.4.12
 PyQt5==5.15.7
+pyqt5-tools
