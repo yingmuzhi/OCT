@@ -20,11 +20,11 @@
 参考本人博客:`https://blog.csdn.net/qq_43369406/article/details/127002024`
 - PyQt学习, Qt复现 √
 参考本人博客:`https://blog.csdn.net/qq_43369406/article/details/127014248`
-- VSCode使用
-- python调用C++
+- VSCode使用 √
 - 图像分割了解
-- 运行otc_read.py, oct_seg.py
+- 运行otc_read.py, oct_seg.py √
 - OpenCV
+- 三种图片复现 
 
 ### 3. Question and answer 
 
